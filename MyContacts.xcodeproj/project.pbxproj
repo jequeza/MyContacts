@@ -13,6 +13,7 @@
 		0ACB65891EE2EA8600ACA148 /* MyContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB65871EE2EA8600ACA148 /* MyContacts.xcdatamodeld */; };
 		0ACB658B1EE2EA8600ACA148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB658A1EE2EA8600ACA148 /* Assets.xcassets */; };
 		0ACB658E1EE2EA8600ACA148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB658C1EE2EA8600ACA148 /* LaunchScreen.storyboard */; };
+		0AF47BAE1EE79B4B00E1920F /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF47BAD1EE79B4B00E1920F /* ContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0ACB658A1EE2EA8600ACA148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ACB658D1EE2EA8600ACA148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ACB658F1EE2EA8600ACA148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF47BAD1EE79B4B00E1920F /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0ACB658C1EE2EA8600ACA148 /* LaunchScreen.storyboard */,
 				0ACB658F1EE2EA8600ACA148 /* Info.plist */,
 				0ACB65871EE2EA8600ACA148 /* MyContacts.xcdatamodeld */,
+				0AF47BAD1EE79B4B00E1920F /* ContactTableViewController.swift */,
 			);
 			path = MyContacts;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF47BAE1EE79B4B00E1920F /* ContactTableViewController.swift in Sources */,
 				0ACB65831EE2EA8600ACA148 /* ViewController.swift in Sources */,
 				0ACB65811EE2EA8600ACA148 /* AppDelegate.swift in Sources */,
 				0ACB65891EE2EA8600ACA148 /* MyContacts.xcdatamodeld in Sources */,
@@ -303,6 +307,7 @@
 				0ACB65941EE2EA8600ACA148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
