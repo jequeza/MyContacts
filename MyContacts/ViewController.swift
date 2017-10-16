@@ -91,13 +91,11 @@ class ViewController: UIViewController {
         //**End Copy**
     }
     
-    @IBAction func btnBack(_ sender: AnyObject) {
-        
-        //**Begin Copy**
-        //2) Dismiss ViewController
-        self.dismiss(animated: false, completion: nil)
-        //**End Copy**
+    @IBAction func btnBack(_ sender: UIButton) {
+        self.dismiss(animated: false, completion:nil)
     }
+        //**End Copy**
+
     
     //**Begin Copy**
     //3) Add ManagedObject Data Context
@@ -170,7 +168,7 @@ class ViewController: UIViewController {
     //**Begin Copy**
     //7 Add to hide keyboard
     
-    func DismissKeyboard(){
+    @objc func DismissKeyboard(){
         //forces resign first responder and hides keyboard
         fullname.endEditing(true)
         email.endEditing(true)
